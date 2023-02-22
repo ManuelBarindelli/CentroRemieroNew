@@ -9,7 +9,7 @@
     font-family: Arial, sans-serif;
     font-size: 16px;
     line-height: 1.5;
-    color: #333;
+    color: #67d6c4;
   }
   
   /* Stili per il menu di navigazione */
@@ -34,13 +34,13 @@
   }
   
   nav a:hover {
-    background-color: #333;
+    background-color: #77ebc8;
     color: #fff;
   }
   
   /* Stili per l'intestazione */
   header {
-    background-color: #333;
+    background-color: #4e4c3a;
     color: #fff;
     padding: 20px;
   }
@@ -79,7 +79,7 @@
   }
   
   section a {
-    color: #333;
+    color: #ff0000;
   }
   
   section a:hover {
