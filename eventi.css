@@ -1,4 +1,87 @@
+/* Reset di default */
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+/* Stile per il corpo della pagina */
 body {
-    background-color: blue;
-  }
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+	color: #333;
+	background-color: #f7f7f7;
+}
+
+/* Stile per l'intestazione */
+header {
+	background-color: #00578A;
+	color: #fff;
+	padding: 20px;
+}
+
+/* Stile per il titolo dell'intestazione */
+header h1 {
+	font-size: 36px;
+	margin: 0;
+}
+
+/* Stile per il menu di navigazione */
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: flex-end;
+}
+
+nav ul li {
+	margin-left: 20px;
+}
+
+nav ul li a {
+	color: #fff;
+	text-decoration: none;
+}
+
+/* Stile per la sezione principale */
+main {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+/* Stile per la lista degli eventi */
+.eventi {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.eventi li {
+	margin-bottom: 40px;
+	padding: 20px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	background-color: #fff;
+	box-shadow: 0px 2px 4px rgba(0,0,0,0.2);
+}
+
+.eventi li h3 {
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+
+.eventi li p {
+	margin-bottom: 10px;
+}
+
+/* Stile per il piè di pagina */
+footer {
+	background-color: #eee;
+	padding: 20px;
+	text-align: center;
+}
+
   
