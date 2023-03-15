@@ -1,63 +1,86 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Contatti - Centro Remiero di Canottaggio</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-        /* CSS per la formattazione della pagina */
-        body {
-          font-family: Arial, sans-serif;
-          background-color: #f2f2f2;
-          margin: 0;
-          padding: 0;
-        }
-        #header {
-          background-color: #333;
-          color: #fff;
-          text-align: center;
-          padding: 20px;
-        }
-        #main {
-          margin: 20px;
-        }
-        .owner {
-          background-color: #fff;
-          padding: 10px;
-          margin-bottom: 20px;
-          border-radius: 5px;
-          box-shadow: 0 2px 5px rgba(0,0,0,0.2);
-        }
-        .owner h2 {
-          margin-top: 0;
-        }
-        .owner p {
-          margin: 0;
-        }
-      </style>
-  </head>
-  <body>
-    <div id="header">
-    <h1>Contatti del Centro Remiero</h1>
- </div>
- <div id="main">
-    <p>Per contattare il Centro Remiero di Canottaggio, si prega di utilizzare i seguenti dati:</p>
-    <ul>
-      <li>Indirizzo: Via del Remo, 1 - 00100 Roma</li>
-      <li>Telefono: +39 06 1234567</li>
-      <li>Email: info@centroremierocanottaggio.it</li>
-      <li>Sito web: <a href="https://www.centroremierocanottaggio.it/">www.centroremierocanottaggio.it</a></li>
-    </ul>
-    <p>È possibile anche compilare il modulo seguente per inviare un messaggio:</p>
-    <form>
-      <label for="nome">Nome:</label>
-      <input type="text" id="nome" name="nome"><br><br>
-      <label for="email">Email:</label>
-      <input type="email" id="email" name="email"><br><br>
-      <label for="messaggio">Messaggio:</label><br>
-      <textarea id="messaggio" name="messaggio"></textarea><br><br>
-      <input type="submit" value="Invia">
-    </form>
- </div>
-  </body>
+<html lang="it">
+<head>
+	<meta charset="UTF-8">
+	<title>Contatti - Centro Remiero di Canottaggio</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			background-color: #f2f2f2;
+		}
+		header {
+			background-color: #0055A5;
+			color: #fff;
+			padding: 10px;
+			text-align: center;
+		}
+		h1 {
+			margin: 0;
+			font-size: 2em;
+		}
+		ul {
+			list-style: none;
+			margin: 0;
+			padding: 0;
+		}
+		li {
+			margin-bottom: 10px;
+		}
+		label {
+			display: block;
+			font-size: 1.2em;
+			font-weight: bold;
+			margin-bottom: 5px;
+		}
+		input, textarea {
+			border: 1px solid #ccc;
+			padding: 5px;
+			width: 100%;
+			box-sizing: border-box;
+			border-radius: 5px;
+			margin-bottom: 10px;
+			font-size: 1em;
+			font-family: inherit;
+		}
+		input[type="submit"] {
+			background-color: #0055A5;
+			color: #fff;
+			border: none;
+			padding: 10px 20px;
+			font-size: 1.2em;
+			border-radius: 5px;
+			cursor: pointer;
+		}
+		input[type="submit"]:hover {
+			background-color: #003366;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<h1>Contatti</h1>
+	</header>
+	<main>
+		<h2>Contattaci</h2>
+		<form action="#" method="post">
+			<ul>
+				<li>
+					<label for="nome">Nome:</label>
+					<input type="text" id="nome" name="nome" required>
+				</li>
+				<li>
+					<label for="email">Email:</label>
+					<input type="email" id="email" name="email" required>
+				</li>
+				<li>
+					<label for="messaggio">Messaggio:</label>
+					<textarea id="messaggio" name="messaggio" rows="5" required></textarea>
+				</li>
+				<li>
+					<input type="submit" value="Invia">
+				</li>
+			</ul>
+		</form>
+	</main>
+</body>
 </html>
