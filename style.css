@@ -10,10 +10,9 @@
     font-size: 16px;
     line-height: 1.5;
     color: #333;
-    body {
-      background-image: url('https://upload.wikimedia.org/wikipedia/commons/e/ef/LagoPusiano001.jpg');
-      background-size: cover
-    }
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/e/ef/LagoPusiano001.jpg');
+    background-size: cover
+    
   }
   
   /* Stili per il menu di navigazione */
