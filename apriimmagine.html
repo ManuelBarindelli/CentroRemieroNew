@@ -1,23 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Apri immagine al tocco</title>
-  <style>
-    img {
-      cursor: pointer;
-      width: 300px;
-    high: 300 px;
-    }
-  </style>
-  <script>
-    function apriImmagine() {
-      window.open('03 (2).jpg');
-    }
-  </script>
+    <title>Immagini a scorrimento</title>
 </head>
 <body>
-  <a href="Storia.html">
-  <img src="03 (2).jpg" onclick="apriImmagine()">
-  </a>
+    <marquee behavior="scroll" direction="left" scrollamount="5">
+        <img src="03 (2).jpg" alt="Immagine 1" width="240" height="240">
+        <img src="Copia di 37.jpg" alt="Immagine 2" width="240" height="240">
+        <img src="06.jpg" alt="Immagine 3" width="200" height="200">
+    </marquee>
 </body>
 </html>
+
